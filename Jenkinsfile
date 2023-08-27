@@ -2,7 +2,7 @@ pipeline {
    agent none
   environment{
       BUILD_SERVER_IP='ec2-user@52.66.199.145'
-       IMAGE_NAME='devopstrainer/java-mvn-privaterepos:php$BUILD_NUMBER'
+       IMAGE_NAME='shijukumar13/java-mvn-privaterepos:php$BUILD_NUMBER'
        DEPLOY_SERVER_IP='ec2-user@13.233.130.125'
    }
     stages {          
